@@ -24,6 +24,14 @@ from ._importable import LazyImport, _import_statements
 
 # 3) If you disagree with the conventions, you can always adjust your local pyforest
 
+### MRI Libraries
+fsl = LazyImport("import nipype.interfaces.fsl as fsl")
+spm = LazyImport("import nipype.interfaces.spm as spm")
+ants = LazyImport("import nipype.interfaces.ants as ants")
+afni = LazyImport("import nipype.interfaces.afni as afni")
+mrtrix = LazyImport("import nipype.interfaces.mrtrix3 as mrtrix")
+bru2nii = LazyImport("import nipype.interfaces.bru2nii as bru2nii")
+
 
 ### Data Wrangling
 pd = LazyImport("import pandas as pd")
