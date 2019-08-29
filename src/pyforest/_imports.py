@@ -31,6 +31,7 @@ ants = LazyImport("import nipype.interfaces.ants as ants")
 afni = LazyImport("import nipype.interfaces.afni as afni")
 mrtrix = LazyImport("import nipype.interfaces.mrtrix3 as mrtrix")
 bru2nii = LazyImport("import nipype.interfaces.bru2nii as bru2nii")
+dipy = LazyImport("import dipy")
 
 
 ### Data Wrangling
